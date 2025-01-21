@@ -95,7 +95,7 @@ def wait_and_get_assembly_ai_transcript(transcription_id):
 
 if __name__ == '__main__':
 	print("\n--- Transcribing podcasts... ---\n")
-	#podcast_list = [Podcast('tim-ferriss', 'https://rss.art19.com/tim-ferriss-show')]
+	#podcast_list = [Podcast('Nephrolithiasis', 'https://subscribers.transistor.fm/e1f648129a05ee')]
 	podcast_list = [Podcast('lex-fridman', 'https://lexfridman.com/feed/podcast/')]
 	metadata = create_transcripts(podcast_list, audio_start_from=600000, audio_end_at=900000)
 	print('Uploaded transcripts')
