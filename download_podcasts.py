@@ -43,3 +43,5 @@ if __name__ == '__main__':
 			file_path = f'{podcast.download_directory}/{simple_title}.mp3'
 			save_mp3_file(file, file_path)
 			print(file_path, "saved")
+
+'run_all.sh'
