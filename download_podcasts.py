@@ -30,7 +30,7 @@ def simplify_title(title):
 
 if __name__ == '__main__':
 	print("\n--- Downloading podcasts... ---\n")
-	podcast_list = [Podcast('lex-fridman', 'https://lexfridman.com/feed/podcast/')]
+	podcast_list = [Podcast('Nephrolithiasis', 'https://subscribers.transistor.fm/e1f648129a05ee/')]
 
 	for podcast in podcast_list:
 		podcast_items = podcast.search_items('robot', limit=5)
